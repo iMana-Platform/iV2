@@ -9,6 +9,9 @@ target 'iV2' do
   pod 'Fabric'
   pod 'Crashlytics'
   
+  # Network
+  pod 'Moya', '~> 9.0.0'
+  
   target 'iV2Tests' do
     inherit! :search_paths
     # Pods for testing
