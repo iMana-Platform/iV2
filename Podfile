@@ -6,7 +6,9 @@ target 'iV2' do
   use_frameworks!
 
   # Pods for iV2
-
+  pod 'Fabric'
+  pod 'Crashlytics'
+  
   target 'iV2Tests' do
     inherit! :search_paths
     # Pods for testing

@@ -141,6 +141,7 @@
 				84F26D201F8A334200C7766E /* Resources */,
 				1540FA459DA383BAE8257876 /* [CP] Embed Pods Frameworks */,
 				64BB9CF435E9F2A84B1A9054 /* [CP] Copy Pods Resources */,
+				84F26D451F8A349B00C7766E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -295,6 +296,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iV2/Pods-iV2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		84F26D451F8A349B00C7766E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 60a5b571f8a6c008c133bfe365b7165872732563 3c7805ca14dafcb4374f8df28248298fb38035e7d58abc1629a0d450dd0ad267";
 		};
 		A8FC076B5AD821C8B2A63A95 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
