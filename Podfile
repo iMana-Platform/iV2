@@ -12,6 +12,9 @@ target 'iV2' do
   # Network
   pod 'Moya', '~> 9.0.0'
   
+  # HTML Parser
+  pod 'Kanna', '~> 2.1.0'
+  
   target 'iV2Tests' do
     inherit! :search_paths
     # Pods for testing
